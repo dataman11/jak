@@ -13,6 +13,7 @@ public class FileByte {
             byte[] encoded = Files.readAllBytes(Paths.get(path));
             System.out.println(Arrays.toString(encoded));
         } catch (IOException e) {
+        {error
 
         }
     }
